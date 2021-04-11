@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <head>
+            <title>C-80</title>
+        </head>
+    </head>
+    <style>
+body {
+    background-color: blue;
+
+}
+    </style>
+    <script>
+function getParagraph1(){
+  join(para_input_box_1+ para_input_box_2+ para_input_box_3+ para_input_box_4+ para_input_box_5+para_input_box_6)  
+}
+function getParagraph2(){
+    join(para_input_box_7+ para_input_box_8+ para_input_box_9+ para_input_box_10+ para_input_box_11+para_input_box_12)
+}
+var inputs = [];
+for (var index = 1;  index <=12; index++) {
+   inputs.push(document.getElementById("para_input_box_1" + index).value);
+    
+}
+inputs.join(". ")
+document.getElementById("getParagraph1").innerHTML = inputs.k=join(". ")
+    </script>
+    <body>
+        <center>
+            <h1>Make paragraphs from the input boxes using the Join Function.</h1>
+        </center>
+        <div <span>1. </span>
+            <input type="text" id="para_input_box_1"  placeholder="Input Box 1"  <span>2.</span><input type="text" id="para_input_box_2"  placeholder="Input Box 2"><br><br>><br><br> ></div>
+        <div><span>3.</span><input type="text" id="para_input_box_3"  placeholder="Input Box 3"><br><br>
+            <span>4.</span><input type="text" id="para_input_box_4"  placeholder="Input Box 4"><br><br></div>
+<div>  
+    <span>5.</span><input type="text" id="para_input_box_5"  placeholder="Input Box 5"><br><br>
+    <span>6.</span><input type="text" id="para_input_box_6"  placeholder="Input Box 6"><br><br></div>
+    <div>   <span>7. </span> 
+        <input type="text" id="para_input_box_7"  placeholder="Input Box 7"><br><br>
+        <span>8.</span><input type="text" id="para_input_box_8"  placeholder="Input Box 8"><br><br></div>   
+        <div <span>9.</span><input type="text" id="para_input_box_9"  placeholder="Input Box 9"><br><br>
+            <span>10.</span><input type="text" id="para_input_box_10"  placeholder="Input Box 10"><br><br>  
+        </div>
+        <div  <span>11.</span><input type="text" id="para_input_box_11"  placeholder="Input Box 11"><br><br>
+            <span>12.</span><input type="text" id="para_input_box_12" placeholder="Input Box 12"><br><br>>
+            </body>
+
+        
+        <div id="getParagraph1" ></div>
+        <span>7. </span> 
+        <input type="text" id="para_input_box_7"  placeholder="Input Box 7"><br><br>
+        <span>8.</span><input type="text" id="para_input_box_8"  placeholder="Input Box 8"><br><br>
+        <span>9.</span><input type="text" id="para_input_box_9"  placeholder="Input Box 9"><br><br>
+        <span>10.</span><input type="text" id="para_input_box_10"  placeholder="Input Box 10"><br><br>
+        <span>11.</span><input type="text" id="para_input_box_11"  placeholder="Input Box 11"><br><br>
+        <span>12.</span><input type="text" id="para_input_box_12" placeholder="Input Box 12"><br><br>
+        <div id="getParagraph2" <button onclick="getParagraph1()">Get Paragraph 1>
+        </div><div <button onclick="getParagraph2()">Get Paragraph 2</button>></div>                                                  
+    </body>
+</html>
